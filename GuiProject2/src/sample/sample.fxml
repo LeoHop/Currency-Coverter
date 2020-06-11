@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="469.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="469.0" fitWidth="504.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true" />
+      <ChoiceBox fx:id="country1DropDown" layoutX="28.0" layoutY="111.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="country2DropDown" layoutX="340.0" layoutY="111.0" prefWidth="150.0" />
+      <TextField fx:id="inputAmount" layoutX="64.0" layoutY="169.0" prefHeight="45.0" prefWidth="77.0" />
+      <Text fx:id="country1Text" layoutX="50.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Origional Currency" />
+      <Text fx:id="country2Text" layoutX="348.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currency to Convert to" />
+      <Button fx:id="convertButton" layoutX="131.0" layoutY="274.0" mnemonicParsing="false" text="Convert" />
+      <Button fx:id="switchButton" layoutX="203.0" layoutY="111.0" mnemonicParsing="false" text="&lt;-- Switch --&gt;" />
+      <Button fx:id="clearButton" layoutX="315.0" layoutY="274.0" mnemonicParsing="false" text="Clear" />
+      <TextField fx:id="printArea" layoutX="376.0" layoutY="169.0" prefHeight="45.0" prefWidth="77.0" />
+   </children>
+</AnchorPane>
